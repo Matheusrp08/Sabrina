@@ -3,26 +3,11 @@
             padding: 0;
         }
         
-        @media (max-width: 600px) {
+        @media (max-width: 640px) {
             body {
                 background-image: url(../img/SplashScreen.png);
-                height: 639.1428833007812px;
+                position: relative;
                 width: 360px;
-                left: 915px;
-                top: 124px;
-                border-radius: 0px;
-                padding: 192px, 39px, 192px, 39px;
-            }
-        }
-        
-        @media (max-width: 320px) {
-            body {
-                background-image: url(../img/SplashScreen.png);
-                height: 321px;
-                width: 180.8046417236328px;
-                left: 915px;
-                top: 124px;
-                border-radius: 0px;
-                padding: 96px, 20px, 96px, 20px;
+                height: 640px;
             }
         }
