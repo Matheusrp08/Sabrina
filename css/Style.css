@@ -17,6 +17,7 @@
         
         @media (max-width: 320px) {
             body {
+                background-image: url(../img/SplashScreen.png);
                 height: 321px;
                 width: 180.8046417236328px;
                 left: 915px;
