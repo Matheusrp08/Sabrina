@@ -10,8 +10,8 @@ body {
         background-image: url(../img/SplashScreen.png);
         background-repeat: no-repeat;
         background-size: cover;
+        display: block;
         margin-left: auto;
-        margin-right: auto;
-        width: 6em
+        margin-right: auto
     }
 }
