@@ -5,13 +5,12 @@ body {
 
 @media (max-width: 600px) {
     body {
-        margin: 0;
-        padding: 0;
         background-image: url(../img/SplashScreen.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        margin-left: auto;
-        margin-right: auto
+        height: 639.1428833007812px;
+        width: 360px;
+        left: 915px;
+        top: 124px;
+        border-radius: 0px;
+        padding: 192px, 39px, 192px, 39px;
     }
 }
