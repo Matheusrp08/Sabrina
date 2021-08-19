@@ -9,7 +9,7 @@ body {
         padding: -15px;
         background-image: url(../img/SplashScreen.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         display: block;
         margin-left: auto;
         margin-right: auto
