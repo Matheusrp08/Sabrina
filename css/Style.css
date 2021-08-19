@@ -6,7 +6,7 @@ body {
 @media (max-width: 600px) {
     body {
         margin: 0;
-        padding: -1;
+        padding: -15px;
         background-image: url(../img/SplashScreen.png);
         background-repeat: no-repeat;
         background-size: cover;
