@@ -10,7 +10,97 @@
 </head>
 
 <body>
+    <div id="wrapper" class="container">
 
+        <header>
+            <h1>Desenvolvendo layouts responsivos com Bootstrap</h1>
+            <P>O Bootstrap oferece um excelente modelo de grid responsivo, que facilita muito o desenvolvimento de web sites. Vejamos então como utilizá-lo. </P>
+        </header>
+
+        <div id="container">
+            <section id="introducao">
+                <h2>Introdução:</h2>
+                <p>Para criar um layout responsivo utilizando o Bootstrap é necessário apenas aplicar as classes do grid nos elementos HTML.</p>
+                <br />
+
+                <h4>Vejamos então como fazer:</h4>
+                <p>A classe que você deve utilizar é a classe <strong>col</strong>, com ela será definido alguns parâmetros (Na verdade são diversas classes já escritas mas para ficar mais fácil assimilar explicarei assim):</p>
+                <br />
+
+                <p> A classe consiste em: <strong>col-tamanho-número de colunas</strong>.</p>
+
+                <h4>Exemplo:</h4>
+                <p>col-xs-4</p>
+                <p>Que determina que ao ser exibida em um smartphone o elemento que possui esta classe será exibido em quatro colunas no grid.</p>
+                <p class="text-danger bg-danger">Obs.: Lembrando que o grid responsivo é construido com base em 12 colunas, e no Bootstrap não é diferente, logo a soma do número de colunas na linha tem que ser igual a 12.</p>
+                <br />
+
+                <h4>Esta classe podem ser aplicada em quatro tamanhos:</h4>
+                <ul>
+                    <li>xs (Para Smartphones)</li>
+                    <li>sm (Para Tablets)</li>
+                    <li>md (Para Desktops)</li>
+                    <li>lg (Para Desktops maiores)</li>
+                </ul>
+                <br />
+
+                <p> Ou seja, para criar a responvidade você precisa apenas determinar em qual dispositivo ele irá apresentá determinado número de colunas. Simples assim, mas vejamos na prática.</p>
+            </section>
+            <!-- End section#introdução -->
+            <section id="pratica">
+                <section id="ex1" class="clearfix">
+                    <h3>Praticando:</h3>
+                    <p>Se em um determinado elemento, (utilizarei <strong>div</strong> como referência) se você aplicar a classe da seguinte maneira:</p>
+                    <p><span class="html">&lt;div</span> <span class="class">class</span>=<span class="value">&quot;col-xs-12 col-sm-6&quot;</span><span class="html">&gt;&lt;/div&gt;</span>
+                    </p>
+                    <p>Assim o elemento em um smartphone ocupará todo espaço da linha, mas em um tablet ele ocupará apenas medade do espaço da linha ou seja seis colunas.</p>
+
+                    <h4>Vejamos em execução:</h4>
+                    <p class="text-danger bg-danger">Obs.: Para visualisar o efeito redimensione a janela do seu navegador.</p>
+                    <div id="exemplo1" class="col-xs-12 col-sm-6"></div>
+                </section>
+                <br />
+                <section id="ex2" class="clearfix">
+                    <h4>Mais um exemplo:</h4>
+                    <p>
+                        <span class="html">&lt;ul&gt;</span>
+                        <ul id="exemplo2">
+                            <li>
+                                <span class="html">&lt;li</span> <span class="class">class</span>=<span class="value">&quot;col-xs-12
+                                        col-sm-4 col-md-3&quot;</span><span class="html">&gt;</span>
+                                <Item1span class="html">&lt;/li&gt;</Item1span>
+                            </li>
+                            <li>
+                                <span class="html">&lt;li</span> <span class="class">class</span>=<span class="value">&quot;col-xs-12
+                                        col-sm-4 col-md-3&quot;</span><span class="html">&gt;</span>
+                                <Item2span class="html">&lt;/li&gt;</Item2span>
+                            </li>
+                            <li>
+                                <span class="html">&lt;li</span> <span class="class">class</span>=<span class="value">&quot;col-xs-12
+                                        col-sm-4 col-md-6&quot;</span><span class="html">&gt;</span>
+                                <Item3span class="html">&lt;/li&gt;</Item3span>
+                            </li>
+                        </ul>
+                        <span class="html">&lt;/ul&gt;</span>
+                    </p>
+                    <br />
+                    <p class="text-danger bg-danger">Obs.: Para visualisar o efeito redimensione a janela do seu navegador.</p>
+                    <ul id="demo1" class="row">
+                        <li class="col-xs-12 col-sm-4 col-md-3 bg-danger">Item1</li>
+                        <li class="col-xs-12 col-sm-4 col-md-3 bg-success">Item2</li>
+                        <li class="col-xs-12 col-sm-4 col-md-6 bg-info">Item3</li>
+                    </ul>
+                    <p>Com isto temos que em um smartphone, cada elemento terá 12 colunas, ou seja ocupará toda a largura da página, em um tablet, os elementos ocuparão 4 colunas cada e em um desktop os dois primeiros elementos ocuparão 3 colunas cada e
+                        o terceiro 6 colunas, somando sempre 12 colunas. Com estes conceitos básicos, aprimorem seus conhecimentos e o desevolviimento de seus layouts.</p>
+                    <p class="text-muted"><em>Escrito por: Pedro Luiz.</em></p>
+                </section>
+            </section>
+            <!-- End section#pratica -->
+        </div>
+        <!-- End div#container -->
+
+    </div>
+    <!-- End div#wrapper -->
 </body>
 
 </html>

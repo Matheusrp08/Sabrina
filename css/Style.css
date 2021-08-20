@@ -1,14 +1,60 @@
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        @media (max-width: 640px) {
-            body {
-                background-image: url(../img/SplashScreen.png);
-                background-repeat: no-repeat;
-                position: relative;
-                width: 360px;
-                height: 640px;
-            }
-        }
+* {
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eaeaea;
+}
+
+div#wrapper {
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 1px 1px 30px rgba(62, 62, 62, 0.29);
+}
+
+p {
+    padding: 5px;
+}
+
+em {
+    font-style: italic;
+}
+
+div#exemplo1 {
+    height: 50px;
+    margin-bottom: 1em;
+    background-color: #a0bef2;
+    border-radius: 5px;
+}
+
+ul#exemplo2 {
+    list-style: none;
+}
+
+ul#demo1 {
+    padding: 0;
+    margin: 1em 0;
+}
+
+ul#demo1 li {
+    color: black;
+    list-style: none;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+.html {
+    color: cornflowerblue;
+}
+
+.class {
+    color: forestgreen;
+}
+
+.value {
+    color: coral;
+}
